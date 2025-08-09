@@ -7,31 +7,31 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+  background: linear-gradient(135deg, #1e1e2f, #2a1b3d);
   color: #eee;
   scroll-behavior: smooth;
   line-height: 1.6;
 }
 
 a {
-  color: #00f7ff;
+  color: #c084f5;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #0ff;
+  color: #e0b3ff;
 }
 
 /* Navbar */
 nav {
   position: fixed;
   width: 100%;
-  background: #2c3e50;
+  background: #2a1b3d;
   padding: 15px 20px;
   display: flex;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 12px rgba(192, 132, 245, 0.3);
   z-index: 1000;
 }
 
@@ -41,28 +41,25 @@ nav ul {
   gap: 30px;
 }
 
-nav ul li {
-  font-weight: 600;
-}
-
 nav ul li a {
-  color: #fff;
+  color: #f0e6ff;
   font-size: 1rem;
-  cursor: pointer;
+  font-weight: 600;
 }
 
 /* Header */
 header {
-  background: #34495e;
+  background: #3a245d;
   color: white;
   padding: 120px 20px 60px;
   text-align: center;
+  box-shadow: 0 0 20px #c084f5;
 }
 
 header h1 {
   font-size: 3rem;
   margin-bottom: 10px;
-  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  text-shadow: 0 0 10px #c084f5, 0 0 20px #c084f5;
 }
 
 header p {
@@ -81,17 +78,17 @@ section {
 section h2 {
   font-size: 2rem;
   margin-bottom: 25px;
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
+  color: #c084f5;
+  border-bottom: 3px solid #c084f5;
   display: inline-block;
   padding-bottom: 5px;
-  text-shadow: 0 0 8px #3498db;
+  text-shadow: 0 0 8px #c084f5;
 }
 
 /* About */
 #about p {
   font-size: 1.1rem;
-  color: #ccc;
+  color: #ddd;
 }
 
 /* Projects */
@@ -103,29 +100,29 @@ section h2 {
 }
 
 .project-card-3d {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   border-radius: 15px;
   padding: 25px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(192, 132, 245, 0.2);
   transform-style: preserve-3d;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(192, 132, 245, 0.3);
 }
 
 .project-card-3d:hover {
   transform: rotateY(8deg) scale(1.03);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 40px rgba(192, 132, 245, 0.4);
 }
 
 .project-card-3d h3 {
   margin-bottom: 15px;
-  color: #0ff;
+  color: #e0b3ff;
   font-size: 1.4rem;
 }
 
 .project-card-3d p {
-  color: #ddd;
+  color: #ccc;
   font-size: 1rem;
   margin-bottom: 15px;
 }
@@ -145,18 +142,18 @@ section h2 {
 }
 
 .skills-list li {
-  background: #3498db;
+  background: #c084f5;
   color: white;
   padding: 10px 18px;
   border-radius: 25px;
   font-weight: 600;
   font-size: 0.95rem;
-  box-shadow: 0 2px 6px rgba(52, 152, 219, 0.5);
+  box-shadow: 0 2px 6px rgba(192, 132, 245, 0.5);
   transition: background 0.3s ease;
 }
 
 .skills-list li:hover {
-  background: #2980b9;
+  background: #a020f0;
   cursor: default;
 }
 
@@ -165,17 +162,18 @@ section h2 {
 #contact a {
   font-size: 1.1rem;
   margin-bottom: 10px;
-  color: #ccc;
+  color: #ddd;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 20px 10px;
-  background: #2c3e50;
+  background: #2a1b3d;
   color: white;
   margin-top: 80px;
   font-size: 0.9rem;
+  box-shadow: 0 0 10px #c084f5;
 }
 
 /* Responsive */
