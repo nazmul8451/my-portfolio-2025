@@ -104,6 +104,7 @@ section h2 {
 }
 
 .project-card-3d {
+  display: block;
   background: rgba(128, 0, 255, 0.1);
   backdrop-filter: blur(14px);
   border-radius: 15px;
@@ -112,6 +113,9 @@ section h2 {
   transform-style: preserve-3d;
   transition: transform 0.5s ease, box-shadow 0.5s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .project-card-3d:hover {
@@ -132,9 +136,10 @@ section h2 {
   margin-bottom: 15px;
 }
 
-.project-card-3d a {
-  font-weight: 600;
-  text-decoration: underline;
+/* Optional: Glow text on hover */
+.project-card-3d:hover h3,
+.project-card-3d:hover p {
+  text-shadow: 0 0 10px #ff9aff;
 }
 
 /* Skills Section */
