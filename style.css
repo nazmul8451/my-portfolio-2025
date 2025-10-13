@@ -54,17 +54,20 @@ nav {
   color: white;
 }
 
+/* Profile Image Styling */
 .profile-image {
-  margin-bottom: 20px;
+  width: 200px;       /* Image size */
+  height: 200px;      /* Image size */
+  overflow: hidden;   /* Extra part hide kore */
+  border-radius: 50%; /* Circle shape */
+  border: 3px solid #6a0dad; /* Optional: nice border color */
+  flex-shrink: 0;     /* Flex e chhoto hobar cheshta na kore */
 }
 
 .profile-image img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 4px solid white;
-  object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Image fill without distortion */
 }
 
 .hero h2 {
