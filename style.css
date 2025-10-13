@@ -15,19 +15,13 @@ header {
   background-color: #111;
   color: white;
   padding: 15px 0;
+  text-align: center;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: auto;
-}
-
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .nav-links {
@@ -112,7 +106,7 @@ nav {
   text-align: center;
 }
 
-.project-list {
+.project-grid {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -126,11 +120,29 @@ nav {
   width: 250px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
-  transition: 0.3s;
+}
+
+/* Skills Section */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 20px 0;
+}
+
+.skills-list li {
+  background: #00bcd4;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
 }
 
 /* Footer */
